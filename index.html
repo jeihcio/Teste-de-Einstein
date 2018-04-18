@@ -1,0 +1,291 @@
+﻿<!doctype>
+<html lang='pt-BR'>
+<head>
+
+	<title>Teste de Einstein</title>
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"> 
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>	
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+
+	<meta property="og:locale" content="pt-br">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Faça o desafio!">
+    <meta property="og:site_name" content="Ministério da Magia">
+    <meta property="og:description" content="Venha resolver esse enigma">
+
+    <meta property="og:image" content="">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="500"> 
+    <meta property="og:image:height" content="302">
+
+	<script type="text/javascript" src="js/jquery.js"></script>	
+	<script type="text/javascript" src="js/sweetalert-dev.js"></script>	
+	<script type="text/javascript" src="js/teste.js"></script>	
+	<script type="text/javascript" src="js/js.js"></script>
+
+	<!--[if IE]>
+	  <script src="js/html5shiv.js"></script>
+	<![endif]-->
+	
+</head>
+<body>
+
+<div id='principal'>	
+	<section>		
+		<!-- PERGUNTAS -->
+		<div id="resposta">
+			<div class="casas-container">				
+				<div id="casa1">
+					<h4>Casa 1</h4>
+					<div class="casas-container-inner">
+						<select data-casa="1">
+							<option></option>
+							<option value="branca">Branca</option>
+							<option value="amarela">Amarela</option>
+							<option value="azul">Azul</option>
+							<option value="verde">Verde</option>
+							<option value="vermelha">Vermelha</option>
+						</select>
+						<select data-pessoa="1">
+							<option></option>
+							<option value="corvinal">Corvinal</option>
+							<option value="grifinoria">Grifinória</option>
+							<option value="lufa-lufa">Lufa-Lufa</option>
+							<option value="sonserina">Sonserina</option>
+							<option value="trouxa">Trouxa</option>
+						</select>
+						<select data-bebida="1">
+							<option></option>
+							<option value="agua">Água de Gilly</option>
+							<option value="cafe">Café</option>
+							<option value="cerveja">Cerveja Amanteigada</option>
+							<option value="hidromel">Hidromel</option>
+							<option value="suco">Suco de Abóbora</option>
+						</select>
+						<select data-doce="1">
+							<option></option>
+							<option value="feijoes">Feijões Mágicos</option>
+							<option value="fio">Fio Dental de Menta</option>
+							<option value="sapos">Sapos de Chocolate</option>
+							<option value="sorvete">Sorvete</option>
+							<option value="varinha">Varinha de Alcaçuz</option>
+						</select>
+						<select data-animal="1">
+							<option></option>
+							<option value="amasso">Amasso</option>
+							<option value="corujas">Corujas</option>
+							<option value="crupe">Crupe</option>
+							<option value="fenix">Fênix</option>
+							<option value="peixes">Peixes</option>
+						</select>
+					</div>
+				</div>
+				<div id="casa2">
+					<h4>Casa 2</h4>
+					<div class="casas-container-inner">
+						<select data-casa="2">
+							<option></option>
+							<option value="branca">Branca</option>
+							<option value="amarela">Amarela</option>
+							<option value="azul">Azul</option>
+							<option value="verde">Verde</option>
+							<option value="vermelha">Vermelha</option>
+						</select>
+						<select data-pessoa="2">
+							<option></option>
+							<option value="corvinal">Corvinal</option>
+							<option value="grifinoria">Grifinória</option>
+							<option value="lufa-lufa">Lufa-Lufa</option>
+							<option value="sonserina">Sonserina</option>
+							<option value="trouxa">Trouxa</option>
+						</select>
+						<select data-bebida="2">
+							<option></option>
+							<option value="agua">Água de Gilly</option>
+							<option value="cafe">Café</option>
+							<option value="cerveja">Cerveja Amanteigada</option>
+							<option value="hidromel">Hidromel</option>
+							<option value="suco">Suco de Abóbora</option>
+						</select>
+						<select data-doce="2">
+							<option></option>
+							<option value="feijoes">Feijões Mágicos</option>
+							<option value="fio">Fio Dental de Menta</option>
+							<option value="sapos">Sapos de Chocolate</option>
+							<option value="sorvete">Sorvete</option>
+							<option value="varinha">Varinha de Alcaçuz</option>
+						</select>
+						<select data-animal="2">
+							<option></option>
+							<option value="amasso">Amasso</option>
+							<option value="corujas">Corujas</option>
+							<option value="crupe">Crupe</option>
+							<option value="fenix">Fênix</option>
+							<option value="peixes">Peixes</option>
+						</select>
+					</div>
+				</div>
+				<div id="casa3">
+					<h4>Casa 3</h4>
+					<div class="casas-container-inner">
+						<select data-casa="3">
+							<option></option>
+							<option value="branca">Branca</option>
+							<option value="amarela">Amarela</option>
+							<option value="azul">Azul</option>
+							<option value="verde">Verde</option>
+							<option value="vermelha">Vermelha</option>
+						</select>
+						<select data-pessoa="3">
+							<option></option>
+							<option value="corvinal">Corvinal</option>
+							<option value="grifinoria">Grifinória</option>
+							<option value="lufa-lufa">Lufa-Lufa</option>
+							<option value="sonserina">Sonserina</option>
+							<option value="trouxa">Trouxa</option>
+						</select>
+						<select data-bebida="3">
+							<option></option>
+							<option value="agua">Água de Gilly</option>
+							<option value="cafe">Café</option>
+							<option value="cerveja">Cerveja Amanteigada</option>
+							<option value="hidromel">Hidromel</option>
+							<option value="suco">Suco de Abóbora</option>
+						</select>
+						<select data-doce="3">
+							<option></option>
+							<option value="feijoes">Feijões Mágicos</option>
+							<option value="fio">Fio Dental de Menta</option>
+							<option value="sapos">Sapos de Chocolate</option>
+							<option value="sorvete">Sorvete</option>
+							<option value="varinha">Varinha de Alcaçuz</option>
+						</select>
+						<select data-animal="3">
+							<option></option>
+							<option value="amasso">Amasso</option>
+							<option value="corujas">Corujas</option>
+							<option value="crupe">Crupe</option>
+							<option value="fenix">Fênix</option>
+							<option value="peixes">Peixes</option>
+						</select>
+					</div>
+				</div>
+				<div id="casa4">
+					<h4>Casa 4</h4>
+					<div class="casas-container-inner">
+						<select data-casa="4">
+							<option></option>
+							<option value="branca">Branca</option>
+							<option value="amarela">Amarela</option>
+							<option value="azul">Azul</option>
+							<option value="verde">Verde</option>
+							<option value="vermelha">Vermelha</option>
+						</select>
+						<select data-pessoa="4">
+							<option></option>
+							<option value="corvinal">Corvinal</option>
+							<option value="grifinoria">Grifinória</option>
+							<option value="lufa-lufa">Lufa-Lufa</option>
+							<option value="sonserina">Sonserina</option>
+							<option value="trouxa">Trouxa</option>
+						</select>
+						<select data-bebida="4">
+							<option></option>
+							<option value="agua">Água de Gilly</option>
+							<option value="cafe">Café</option>
+							<option value="cerveja">Cerveja Amanteigada</option>
+							<option value="hidromel">Hidromel</option>
+							<option value="suco">Suco de Abóbora</option>
+						</select>
+						<select data-doce="4">
+							<option></option>
+							<option value="feijoes">Feijões Mágicos</option>
+							<option value="fio">Fio Dental de Menta</option>
+							<option value="sapos">Sapos de Chocolate</option>
+							<option value="sorvete">Sorvete</option>
+							<option value="varinha">Varinha de Alcaçuz</option>
+						</select>
+						<select data-animal="4">
+							<option></option>
+							<option value="amasso">Amasso</option>
+							<option value="corujas">Corujas</option>
+							<option value="crupe">Crupe</option>
+							<option value="fenix">Fênix</option>
+							<option value="peixes">Peixes</option>
+						</select>
+					</div>
+				</div>	
+				<div id="casa5">
+					<h4>Casa 5</h4>
+					<div class="casas-container-inner">
+						<select data-casa="5">
+							<option></option>
+							<option value="branca">Branca</option>
+							<option value="amarela">Amarela</option>
+							<option value="azul">Azul</option>
+							<option value="verde">Verde</option>
+							<option value="vermelha">Vermelha</option>
+						</select>
+						<select data-pessoa="5">
+							<option></option>
+							<option value="corvinal">Corvinal</option>
+							<option value="grifinoria">Grifinória</option>
+							<option value="lufa-lufa">Lufa-Lufa</option>
+							<option value="sonserina">Sonserina</option>
+							<option value="trouxa">Trouxa</option>
+						</select>
+						<select data-bebida="5">
+							<option></option>
+							<option value="agua">Água de Gilly</option>
+							<option value="cafe">Café</option>
+							<option value="cerveja">Cerveja Amanteigada</option>
+							<option value="hidromel">Hidromel</option>
+							<option value="suco">Suco de Abóbora</option>
+						</select>
+						<select data-doce="5">
+							<option></option>
+							<option value="feijoes">Feijões Mágicos</option>
+							<option value="fio">Fio Dental de Menta</option>
+							<option value="sapos">Sapos de Chocolate</option>
+							<option value="sorvete">Sorvete</option>
+							<option value="varinha">Varinha de Alcaçuz</option>
+						</select>
+						<select data-animal="5">
+							<option></option>
+							<option value="amasso">Amasso</option>
+							<option value="corujas">Corujas</option>
+							<option value="crupe">Crupe</option>
+							<option value="fenix">Fênix</option>
+							<option value="peixes">Peixes</option>
+						</select>
+					</div>
+				</div>	
+				<div id="legenda">
+					<h4>Legenda</h4>
+					<ul>
+						<li>Cores das Casas</li>
+						<li>Pessoas</li>
+						<li>Bebidas</li>
+						<li>Doces</li>
+						<li>Animais de Estimação</li>
+					</ul>	
+				</div>		
+			</div>
+			<div id="informacoes">
+				<h4>Regras  básicas para resolver a prova</h4>
+				<span>
+					Esses 5 proprietários bebem diferentes bebidas, comem diferentes tipos de doces e tem um certo animal de estimação <br/>
+
+					Nenhum deles tem o mesmo animal, comem o mesmo doce ou bebem a mesma bebida
+				</span>
+			</div>		
+		</div>
+
+		<!-- BOTÃO -->
+	    <div id="vassoura"></div>
+	</section>	
+</div>
+</body>
+</html>

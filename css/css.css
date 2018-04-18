@@ -1,0 +1,127 @@
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: Roboto;	
+}
+
+body{
+	background-color: #000;
+	background-image: url('../images/wallpaper.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#principal{
+	width: 810px;
+	height: 860px;
+	margin: 0px auto;
+	position: relative;
+	background: url('../images/background.jpg');
+
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(181, 229, 233, 0.75);
+	-moz-box-shadow:    0px 0px 30px 0px rgba(181, 229, 233, 0.75);
+	box-shadow:         0px 0px 30px 0px rgba(181, 229, 233, 0.75);
+
+}
+
+.casa{
+	height: 130px;
+}
+
+#principal section{
+	position: absolute;
+	top: 335px;
+	left: 53px;
+	background: transparent;
+	width: 739px;
+	height: 511px;
+}
+
+#principal #vassoura{
+	width: 208px;
+	height: 57px;
+	background-image: url("../images/vassoura.png");
+	top: 440px;
+	left: 35px;
+	position: absolute;
+}
+
+ #vassoura a{
+ 	color: #fff;
+ 	text-decoration: none;
+ }
+
+#principal #vassoura:hover{
+	cursor: pointer;
+}
+
+#principal section #resposta{
+	height: 100%;
+	width: 100%;
+	padding: 42px 0px 0px 70px;
+	position: absolute;
+    overflow: hidden;
+}
+
+#principal section #resposta .casas-container span {
+	font-size: 24px;
+}
+
+#principal section #resposta .casas-container h4{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#principal section #resposta select{
+	margin: 0px 5px 5px;
+}
+
+#principal header{
+	height: 312px;
+	width: 810px;
+	float: left;
+	background: url('../images/header/background.jpg');
+}
+
+#fechar{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.casas-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.casas-container-inner{
+	display: flex;
+	flex-direction: column;	
+}
+
+#legenda {
+	margin-left: 10px;
+}
+
+#legenda h4{
+	text-align: left !important;
+}
+
+#legenda ul {
+	list-style-type: none;
+}
+
+#legenda ul > li {
+	line-height: 28px;
+}
+
+#informacoes{
+	margin-top: 10px;
+}
+
+#informacoes span{
+	font-size: 15px;
+}

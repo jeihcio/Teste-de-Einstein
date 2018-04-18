@@ -2,27 +2,27 @@ var TesteEinstein = function(){
 	this._cores = {
 		amarela: {
 			valor: "amarela",
-			descricao: ""
+			descricao: "Amarela"
 		},
 
 		azul: {
 			valor: "azul",
-			descricao: ""
+			descricao: "Azul"
 		},
 
 		vermelha: {
 			valor: "vermelha",
-			descricao: ""
+			descricao: "Vermelha"
 		},
 
 		verde: {
 			valor: "verde",
-			descricao: ""
+			descricao: "Verde"
 		},
 
 		branca: {
-			valor: "branca"
-			descricao: ""
+			valor: "branca",
+			descricao: "Branca"
 		},
 
 	},
@@ -30,54 +30,54 @@ var TesteEinstein = function(){
 	this._pessoa = {
 		grifinoria: {
 			valor: "grifinoria",
-			descricao: ""
+			descricao: "Grifinória"
 		},
 
 		corvinal: {
 			valor: "corvinal",
-			descricao: ""
+			descricao: "Corvinal"
 		},
 
 		trouxa: {
 			valor: "trouxa",
-			descricao: ""
+			descricao: "Trouxa"
 		},
 
 		lufa: {
 			valor: "lufa-lufa",
-			descricao: ""
+			descricao: "Lufa-Lufa"
 		},
 
 		sonserina: {
 			valor: "sonserina",
-			descricao: ""
+			descricao: "Sonserina"
 		}	
 	},
 
 	this._bebida = {
 		agua: {
 			valor: "agua",
-			descricao: ""
+			descricao: "Água de Gilly"
 		},
 
 		hidromel: {
 			valor: "hidromel",
-			descricao: ""
+			descricao: "Hidromel"
 		},
 
 		cafe: {
 			valor: "cafe",
-			descricao: ""
+			descricao: "Café"
 		},
 
 		cerveja: {
 			valor: "cerveja",
-			descricao: ""
+			descricao: "Cerveja Amanteigada"
 		},
 
 		suco: {
-			valor: "suco"
-			descricao: ""
+			valor: "suco",
+			descricao: "Suco de Abóbora"
 		},
 
 	},
@@ -85,27 +85,27 @@ var TesteEinstein = function(){
 	this._doce = {
 		feijoes: {
 			valor: "feijoes",
-			descricao: ""
+			descricao: "Feijões Mágicos"
 		},
 
 		sapos: {
 			valor: "sapos",
-			descricao: ""
+			descricao: "Sapos de Chocolate"
 		},
 
 		sorvete: {
 			valor: "sorvete",
-			descricao: ""
+			descricao: "Sorvete"
 		},
 
 		fio: {
 			valor: "fio",
-			descricao: ""
+			descricao: "Fio Dental de Menta"
 		},
 
 		varinha: {
-			valor: "varinha"
-			descricao: ""
+			valor: "varinha",
+			descricao: "Varinha de Alcaçuz"
 		},
 	
 	},
@@ -113,27 +113,27 @@ var TesteEinstein = function(){
 	this._animal = {
 		amasso: {
 			valor: "amasso",
-			descricao: ""
+			descricao: "Amasso"
 		},
 
 		corujas: {
 			valor: "corujas",
-			descricao: ""
+			descricao: "Corujas"
 		},
 
 		peixes: {
 			valor: "peixes",
-			descricao: ""
+			descricao: "Peixes"
 		},
 
 		fenix: {
 			valor: "fenix",
-			descricao: ""
+			descricao: "Fênix"
 		},
 
 		crupe: {
-			valor: "crupe"
-			descricao: ""
+			valor: "crupe",
+			descricao: "Crupe"
 		},
 	
 	}
@@ -143,42 +143,42 @@ TesteEinstein.prototype._respostaCertas = function(){
 	return casas = {
 		1: {
 			cor: this._cores.amarela.valor,
-			pessoa: this._pessoa.grifinoria,
-			bebida: this._bebida.agua,
-			doce: this._doce.feijoes,
-			animal: this._animal.amasso
+			pessoa: this._pessoa.grifinoria.valor,
+			bebida: this._bebida.agua.valor,
+			doce: this._doce.feijoes.valor,
+			animal: this._animal.amasso.valor
 		},
 
 		2: {
-			cor: this._cores.azul,
-			pessoa: this._pessoa.corvinal,
-			bebida: this._bebida.hidromel,
-			doce: this._doce.sapos,
-			animal: this._animal.corujas 
+			cor: this._cores.azul.valor,
+			pessoa: this._pessoa.corvinal.valor,
+			bebida: this._bebida.hidromel.valor,
+			doce: this._doce.sapos.valor,
+			animal: this._animal.corujas.valor 
 		},
 
 		3: {
-			cor: this._cores.vermelha,
-			pessoa: this._pessoa.trouxa,
-			bebida: this._bebida.cafe,
-			doce: this._doce.sorvete,
-			animal: this._animal.peixes 
+			cor: this._cores.vermelha.valor,
+			pessoa: this._pessoa.trouxa.valor,
+			bebida: this._bebida.cafe.valor,
+			doce: this._doce.sorvete.valor,
+			animal: this._animal.peixes.valor 
 		},
 
 		4: {
-			cor: this._cores.verde,
-			pessoa: this._pessoa.lufa,
-			bebida: this._bebida.cerveja,
-			doce: this._doce.fio,
-			animal: this._animal.fenix 
+			cor: this._cores.verde.valor,
+			pessoa: this._pessoa.lufa.valor,
+			bebida: this._bebida.cerveja.valor,
+			doce: this._doce.fio.valor,
+			animal: this._animal.fenix.valor 
 		},
 
 		5: {
-			cor: this._cores.branca,
-			pessoa: this._pessoa.sonserina,
-			bebida: this._bebida.suco,
-			doce: this._doce.varinha,
-			animal: this._animal.crupe
+			cor: this._cores.branca.valor,
+			pessoa: this._pessoa.sonserina.valor,
+			bebida: this._bebida.suco.valor,
+			doce: this._doce.varinha.valor,
+			animal: this._animal.crupe.valor
 		}
 	}
 }
@@ -231,6 +231,107 @@ TesteEinstein.prototype.getCasas = function(){
 					animal: casa5.getElementsByTagName("select")[4].value 
 				}
 			}
+}
+
+TesteEinstein.prototype._gerarCasas = function(){
+	var elementoRaiz = document.createElement("div"),
+	    legendas = document.createElement("div"),
+	    numeroCasas = 5,
+	    numeroOpcoes = 5
+	    campos = {};
+
+	elementoRaiz.classList.add("casas-container");
+
+	for (var numeroCasa = 1; numeroCasa <= numeroCasas; numeroCasa++) {
+		var casa = document.createElement("div"),
+		    titulo = document.createElement("h4"),
+		    casasContainer = document.createElement("div");
+
+		// casa
+		casa.setAttribute("id", "casa"+numeroCasa);
+
+		// h4 com o numero da casa
+		titulo.textContent = "casa "+numeroCasa;
+		casa.appendChild(titulo);
+
+		// div com as opcoes
+		casasContainer.classList.add("casas-container-inner");
+		
+		// opcoes
+		campos = [
+			this._cores,
+			this._pessoa,
+			this._bebida,
+			this._doce,
+			this._animal
+		];
+
+		for (var camposSelecao = 0; camposSelecao < campos.length; camposSelecao++) {
+			
+			var inputSelecao = document.createElement("select"),
+			    inputOpcao = document.createElement("option");
+
+			// opcao em branco
+			inputSelecao.appendChild(inputOpcao);
+
+			// opcoes do array de campos
+			for (var prop in campos[camposSelecao]) {
+				inputOpcao = document.createElement("option");
+				inputOpcao.setAttribute("value", campos[camposSelecao][prop].valor);
+				inputOpcao.innerHTML = campos[camposSelecao][prop].descricao;
+				inputSelecao.appendChild(inputOpcao);
+			}
+
+			// adicionar o campo de select na div interna de casa
+			casasContainer.appendChild(inputSelecao);
+		}
+
+		// adicionar a casa "interna" na div principal
+		casa.appendChild(casasContainer);
+
+		// div raiz
+		elementoRaiz.appendChild(casa);
+	}
+
+	return elementoRaiz;
+}
+
+TesteEinstein.prototype._gerarLegenda = function(){
+	var elementoRaiz = document.createElement("div"),
+		titulo = document.createElement("h4"),
+		lista = document.createElement("ul"),		
+		itensLista = [];
+
+	itensLista = [
+		"Cores das Casas",
+		"Pessoas",
+		"Bebidas",
+		"Doces",
+		"Animais de Estimação"
+	];
+
+	titulo.textContent = "Legenda";
+	for (var itens = 0; itens < itensLista.length; itens++) {
+		var itemLi = document.createElement("li");
+		itemLi.innerHTML = itensLista[itens];
+		lista.appendChild(itemLi);
+	}
+
+	elementoRaiz.setAttribute("id","legenda");
+	elementoRaiz.appendChild(titulo);
+	elementoRaiz.appendChild(lista);
+	
+	return elementoRaiz;
+}
+
+TesteEinstein.prototype.gerarTeste = function(id){		
+	var elemento = document.getElementById(id),
+	    casas = this._gerarCasas(),
+	    legendas = this._gerarLegenda();
+
+	elemento.
+		appendChild(casas).
+		appendChild(legendas);
 }
 
 TesteEinstein.prototype.validarResposta = function(casas,fn){

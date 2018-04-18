@@ -324,14 +324,55 @@ TesteEinstein.prototype._gerarLegenda = function(){
 	return elementoRaiz;
 }
 
+TesteEinstein.prototype._gerarInformacoes = function(){
+	var elementoRaiz = document.createElement("div"),
+		titulo = document.createElement("h4"),
+		regras = document.createElement("span"),
+		textoRegras = "";
+
+	elementoRaiz.setAttribute("id","informacoes");	
+	titulo.textContent = "Regras  básicas para resolver a prova";
+	elementoRaiz.appendChild(titulo);
+
+	textoRegras = "<p>Esses 5 proprietários bebem diferentes bebidas, comem " +
+	              "diferentes tipos de doces e tem um certo animal de estimação." +
+				  " Nenhum deles tem o mesmo animal, comem o mesmo doce ou bebem a mesma bebida</p>" +
+
+				  "<br/><h4>Dicas</h4>" + 
+				  "O bruxo da grifinória vive na primeira casa<br/>"+
+				  "O trouxa vive na casa vermelha<br/>"+
+				  "O bruxo da sonserina tem crupes como animais de estimação<br/>"+
+				  "O bruxo da corvinal bebe hidromel<br/>"+
+				  "A casa verde fica ao lado esquerdo da casa branca<br/>"+
+				  "A pessoa que vive na casa verde bebe cerveja amanteigada<br/>"+
+				  "A pessoa que come sorvete cria peixes<br/>"+
+				  "A pessoa que vive na casa amarela come feijões de tds sabores<br/>"+
+				  "A pessoa que vive na casa do meio bebe café<br/>"+
+				  "A pessoa que come sapos de chocolate vive ao lado da que tem um amasso<br/>"+
+				  "A pessoa que cria corujas vive ao lado da que come feijões de tds sabores<br/>"+
+				  "A pessoa que come varinha de alcaçuz bebe suco de abóbora<br/>"+
+				  "O bruxo da lufa-lufa come fio dental de menta<br/>"+
+				  "O bruxo da grifinória vive ao lado da casa azul<br/>"+
+				  "A pessoa que come sapos de chocolate é vizinha da que bebe água de gilly";
+
+	regras.innerHTML = textoRegras ;
+	elementoRaiz.appendChild(regras);
+
+	return elementoRaiz;
+}
+
 TesteEinstein.prototype.gerarTeste = function(id){		
 	var elemento = document.getElementById(id),
 	    casas = this._gerarCasas(),
-	    legendas = this._gerarLegenda();
+	    legendas = this._gerarLegenda(),
+	    informacoes = this._gerarInformacoes();
 
 	elemento.
 		appendChild(casas).
 		appendChild(legendas);
+
+	elemento.
+		appendChild(informacoes);
 }
 
 TesteEinstein.prototype.validarResposta = function(casas,fn){

@@ -16,7 +16,7 @@ body{
 
 #principal{
 	width: 810px;
-	height: 860px;
+	height: 1190px;
 	margin: 0px auto;
 	position: relative;
 	background: url('../images/background.jpg');
@@ -35,16 +35,15 @@ body{
 	position: absolute;
 	top: 335px;
 	left: 53px;
-	background: transparent;
 	width: 739px;
-	height: 511px;
+	height: 851px;
 }
 
 #principal #vassoura{
 	width: 208px;
 	height: 57px;
 	background-image: url("../images/vassoura.png");
-	top: 440px;
+	top: 787px;
 	left: 35px;
 	position: absolute;
 }
@@ -61,7 +60,7 @@ body{
 #principal section #resposta{
 	height: 100%;
 	width: 100%;
-	padding: 42px 0px 0px 70px;
+	padding: 42px 70px 0px;
 	position: absolute;
     overflow: hidden;
 }

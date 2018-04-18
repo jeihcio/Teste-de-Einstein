@@ -1,48 +1,186 @@
 var TesteEinstein = function(){
+	this._cores = {
+		amarela: {
+			valor: "amarela",
+			descricao: ""
+		},
+
+		azul: {
+			valor: "azul",
+			descricao: ""
+		},
+
+		vermelha: {
+			valor: "vermelha",
+			descricao: ""
+		},
+
+		verde: {
+			valor: "verde",
+			descricao: ""
+		},
+
+		branca: {
+			valor: "branca"
+			descricao: ""
+		},
+
+	},
+
+	this._pessoa = {
+		grifinoria: {
+			valor: "grifinoria",
+			descricao: ""
+		},
+
+		corvinal: {
+			valor: "corvinal",
+			descricao: ""
+		},
+
+		trouxa: {
+			valor: "trouxa",
+			descricao: ""
+		},
+
+		lufa: {
+			valor: "lufa-lufa",
+			descricao: ""
+		},
+
+		sonserina: {
+			valor: "sonserina",
+			descricao: ""
+		}	
+	},
+
+	this._bebida = {
+		agua: {
+			valor: "agua",
+			descricao: ""
+		},
+
+		hidromel: {
+			valor: "hidromel",
+			descricao: ""
+		},
+
+		cafe: {
+			valor: "cafe",
+			descricao: ""
+		},
+
+		cerveja: {
+			valor: "cerveja",
+			descricao: ""
+		},
+
+		suco: {
+			valor: "suco"
+			descricao: ""
+		},
+
+	},
+
+	this._doce = {
+		feijoes: {
+			valor: "feijoes",
+			descricao: ""
+		},
+
+		sapos: {
+			valor: "sapos",
+			descricao: ""
+		},
+
+		sorvete: {
+			valor: "sorvete",
+			descricao: ""
+		},
+
+		fio: {
+			valor: "fio",
+			descricao: ""
+		},
+
+		varinha: {
+			valor: "varinha"
+			descricao: ""
+		},
+	
+	},
+
+	this._animal = {
+		amasso: {
+			valor: "amasso",
+			descricao: ""
+		},
+
+		corujas: {
+			valor: "corujas",
+			descricao: ""
+		},
+
+		peixes: {
+			valor: "peixes",
+			descricao: ""
+		},
+
+		fenix: {
+			valor: "fenix",
+			descricao: ""
+		},
+
+		crupe: {
+			valor: "crupe"
+			descricao: ""
+		},
+	
+	}
 }
 
 TesteEinstein.prototype._respostaCertas = function(){
 	return casas = {
-				1: {
-					cor: 'amarela',
-					pessoa: 'grifinoria',
-					bebida: 'agua',
-					doce: 'feijoes',
-					animal: 'amasso' 
-				},
+		1: {
+			cor: this._cores.amarela.valor,
+			pessoa: this._pessoa.grifinoria,
+			bebida: this._bebida.agua,
+			doce: this._doce.feijoes,
+			animal: this._animal.amasso
+		},
 
-				2: {
-					cor: 'azul',
-					pessoa: 'corvinal',
-					bebida: 'hidromel',
-					doce: 'sapos',
-					animal: 'corujas' 
-				},
+		2: {
+			cor: this._cores.azul,
+			pessoa: this._pessoa.corvinal,
+			bebida: this._bebida.hidromel,
+			doce: this._doce.sapos,
+			animal: this._animal.corujas 
+		},
 
-				3: {
-					cor: 'vermelha',
-					pessoa: 'trouxa',
-					bebida: 'cafe',
-					doce: 'sorvete',
-					animal: 'peixes' 
-				},
+		3: {
+			cor: this._cores.vermelha,
+			pessoa: this._pessoa.trouxa,
+			bebida: this._bebida.cafe,
+			doce: this._doce.sorvete,
+			animal: this._animal.peixes 
+		},
 
-				4: {
-					cor: 'verde',
-					pessoa: 'lufa-lufa',
-					bebida: 'cerveja',
-					doce: 'fio',
-					animal: 'fenix' 
-				},
+		4: {
+			cor: this._cores.verde,
+			pessoa: this._pessoa.lufa,
+			bebida: this._bebida.cerveja,
+			doce: this._doce.fio,
+			animal: this._animal.fenix 
+		},
 
-				5: {
-					cor: 'branca',
-					pessoa: 'sonserina',
-					bebida: 'suco',
-					doce: 'varinha',
-					animal: 'crupe' 
-				}
-			}
+		5: {
+			cor: this._cores.branca,
+			pessoa: this._pessoa.sonserina,
+			bebida: this._bebida.suco,
+			doce: this._doce.varinha,
+			animal: this._animal.crupe
+		}
+	}
 }
 
 TesteEinstein.prototype.getCasas = function(){
